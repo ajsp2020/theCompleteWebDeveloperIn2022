@@ -1,0 +1,10 @@
+.btn-primary {
+    background-color: orange;
+}
+.btn-primary:hover {
+    background-color: #ffc107;
+}
+.col {
+    background-color: #f8f9fa;
+    border: 2px solid black;
+}
