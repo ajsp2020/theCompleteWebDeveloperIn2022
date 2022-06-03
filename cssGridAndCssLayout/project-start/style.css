@@ -1,0 +1,150 @@
+body {
+    margin: auto 0; /* to center the page */
+    font-family: Arial, Helvetica, sans-serif; /* to set the font */
+}
+
+.zone {
+    /* padding:30px 50px;
+    margin:40px 60px; */
+    cursor:pointer;
+    /* display:inline-block; */
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+.box:hover {
+    -webkit-transform:rotate(-7deg);
+    -moz-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    box-transform:rotate(-7deg);
+}
+
+/* NAV */
+.sticky {
+    position: fixed; /* to stick the navbar */
+    top: 0; /* to make it stick to the top */
+    width: 100%; /* to make it fill the whole screen */
+}
+.main-nav {
+    display: flex; /* to make the nav items appear in a horizontal line */
+    list-style: none; /* to remove the default bullet points */
+    font-size: 0.7em; /* to make the font smaller */
+    margin: 0; /* to remove the default margin */
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em; /* to make the font smaller */
+        padding: 0; /* to remove the default margin */
+    }
+}
+
+.push {
+    margin-left: auto; /* to move the nav items to the right */
+}
+
+li {
+    padding: 20px; /* to add some space between the nav items */
+}
+
+a {
+    text-decoration: none; /* to remove the default underline */
+    color: #f5f5f6; /* to change the color of the text */
+}
+
+/* COVER */
+.container {
+    display: flex;  /* to make the cover items appear in a horizontal line */
+    align-items: center; /* to center the content on the vertical axis */
+    justify-content: center; /* to center the content on the horizontal axis */
+    height: 50vh; /* to make the cover items appear in a full height */
+}
+
+.cover {
+    width: 30rem; /* to make the cover items appear in a full width */
+}
+
+/* GRID */
+.grid-wrapper {
+    display: grid; /* to make the grid items appear in a grid */
+    grid-gap: 20px; /* to add some space between the grid items */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* to make the grid items appear in a grid */
+}
+
+.box > img {
+    width: 100%; /* to make the images appear in a full width */
+}
+
+.box {
+    background-color: #444; /* to change the background color */
+    padding: 130px; /* to add some space between the grid items */
+    margin: 20px; /* to add some space between the grid items */
+}
+
+footer {
+    text-align: center; /* to center the text */
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green{
+    background: #56B870; /* Old browsers */
+    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
+    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red{
+    background: #C655BE; /* Old browsers */
+    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+    background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background: #7abcff; /* Old browsers */
+    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+}
